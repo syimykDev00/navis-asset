@@ -1,0 +1,275 @@
+#reviews {
+    padding: 40px 0 100px 0;
+    .reviews {
+        h1 {
+          font-weight: 600;
+          font-size: 50px;
+          text-align: center;
+          padding: 0 0 40px 0;
+          color: #000000;
+        }
+        &--general {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            &__block {
+                width: 258px;
+                height: 352px;
+                margin: 0 10px 20px 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: start;
+                background: #F5F7FA;
+                border-radius: 12px;
+                padding: 20px 0 20px 20px;
+                &--iconTextBlockGroup {
+                    &__iconsGroup {
+                     display: flex;
+                     align-items: center;
+                    &--iconYellow {
+                        color: #FFCB3C;
+                        font-size: 20px;
+                        padding: 0 8px 0 0;
+                    }
+                    &--iconSilver {
+                        color: #DADADA;
+                        font-size: 20px;
+                    }
+                 }
+                 p {
+                  font-weight: 500;
+                  font-size: 18px;
+                  line-height: 24px;
+                  color: #313131;
+                  width: 238px;
+                  padding: 20px 0 0 0;
+                 }
+              }
+              &--textGroup {
+                display: flex;
+                align-items: center;
+                &__userGroup {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: white;
+                    border-radius: 8px;
+                }
+                &__text {
+                    padding: 0 0 0 12px;
+                    h3 {
+                     font-weight: 500;
+                     font-size: 14px;
+                     color: #000000;
+                     padding: 0 0 5px 0;
+                    }
+                    h4 {
+                     font-weight: 400;
+                     font-size: 14px;
+                     color: #8C8C8C;
+                    }
+                }
+              }
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 47px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 44px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 42px;
+            }
+            &--general {
+                &__block {
+                    width: 288px;
+                    height: 352px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 38px;
+                width: 90%;
+                margin: 0 auto;
+            }
+            &--general {
+                &__block {
+                    width: 258px;
+                    height: 352px;
+                    &--iconTextBlockGroup {
+                        p {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 36px;
+                line-height: 43px;
+                width: 90%;
+                margin: 0 auto;
+            }
+            &--general {
+                flex-direction: column;
+                &__block {
+                    width: 258px;
+                    height: 352px;
+                    margin: 0 0 20px 0;
+                    &--iconTextBlockGroup {
+                        p {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 34px;
+                line-height: 41px;
+                width: 90%;
+                margin: 0 auto;
+            }
+            &--general {
+                flex-direction: column;
+                &__block {
+                    width: 258px;
+                    height: 352px;
+                    margin: 0 0 20px 0;
+                    &--iconTextBlockGroup {
+                        p {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 30px;
+                line-height: 37px;
+                width: 90%;
+                margin: 0 auto;
+            }
+            &--general {
+                flex-direction: column;
+                &__block {
+                    width: 85%;
+                    height: 352px;
+                    margin: 0 0 20px 0;
+                    &--iconTextBlockGroup {
+                        p {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 30px;
+                line-height: 37px;
+                width: 90%;
+                margin: 0 auto;
+            }
+            &--general {
+                flex-direction: column;
+                &__block {
+                    width: 85%;
+                    height: 352px;
+                    margin: 0 0 20px 0;
+                    &--iconTextBlockGroup {
+                        p {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    #reviews {
+        .reviews {
+            h1 {
+                font-size: 25px;
+                line-height: 33px;
+                width: 100%;
+                margin: 0 auto;
+            }
+            &--general {
+                flex-direction: column;
+                &__block {
+                    width: 90%;
+                    height: 352px;
+                    margin: 0 0 20px 0;
+                    &--iconTextBlockGroup {
+                        p {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

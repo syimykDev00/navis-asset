@@ -1,0 +1,327 @@
+#hero {
+    padding: 50px 0;
+    .hero {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        &--block {
+            width: 535px;
+            height: 495px;
+            border-radius: 30px;
+            background: #F5F7FA;
+            padding: 34px 0 0 34px;
+            h1 {
+                font-family: Inter;
+                font-weight: 600;
+                font-size: 55px;
+                line-height: 60px;
+                color: #000000;
+                width: 498px;
+            }
+            p {
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 22px;
+               color: #6F6F6F;
+               width: 436px;
+               padding: 44px 0 48px 0;
+            }
+            &__group {
+                display: flex;
+                align-items: center;
+                &--btnOne {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #000000;
+                    padding: 15px 23px;
+                    border: 1px solid #D8D8D8;
+                    border-radius: 8px;
+                    background: transparent;
+                    margin: 0 10px 0 0;
+                    &:hover {
+                        color: white;
+                        background: linear-gradient(59.33deg, #D4151C 22.38%, #D35400 87.43%);
+                    }
+                }
+                &--btnTwo {
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: #000000;
+                    padding: 15px 23px;
+                    border: 1px solid #D8D8D8;
+                    border-radius: 8px;
+                    background: transparent;
+                    display: flex;
+                    align-items: center;
+                    &:hover {
+                         color: white;
+                         background: linear-gradient(59.33deg, #D4151C 22.38%, #D35400 87.43%);
+                         .hero--block__group--btnTwo__btnIcon {
+                            color: white;
+                         }
+                    }
+                    &__btnIcon {
+                        color: #141416;
+                        font-size: 20px;
+                        padding: 0 0 0 10px;
+                    }
+                }
+            }
+        }
+        &--imageBlock {
+            width: 565px;
+            height: 535px;
+            background: linear-gradient(51.24deg, #D4151C 22.63%, #D35400 82.84%);
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #hero {
+        .hero {
+            width: 100%;
+            &--block {
+                   width: 45%;
+                   height: 485px;
+                h1 {
+                    font-size: 52px;
+                    width: 458px;
+                    line-height: 58px;
+                }
+            }
+            &--imageBlock {
+                width: 45%;
+                height: 515px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    #hero {
+        .hero {
+            width: 100%;
+            &--block {
+                   width: 45%;
+                   height: 465px;
+                h1 {
+                    font-size: 46px;
+                    width: 388px;
+                    line-height: 55px;
+                }
+                p {
+                    width: 396px;
+                }
+            }
+            &--imageBlock {
+                width: 45%;
+                height: 495px;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #hero {
+        .hero {
+            width: 100%;
+            &--block {
+                   width: 45%;
+                   height: 460px;
+                h1 {
+                    font-size: 44px;
+                    width: 378px;
+                    line-height: 54px;
+                }
+                p {
+                    width: 396px;
+                }
+            }
+            &--imageBlock {
+                width: 45%;
+                height: 490px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #hero {
+        .hero {
+            flex-direction: column;
+            &--block {
+                   width: 90%;
+                   height: 495px;
+                h1 {
+                    font-size: 46px;
+                    width: 388px;
+                    line-height: 54px;
+                }
+                p {
+                    width: 436px;
+                }
+            }
+            &--imageBlock {
+              width: 90%;
+              height: 535px;
+              margin: 20px 0 0 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #hero {
+        .hero {
+            flex-direction: column;
+            &--block {
+                   width: 90%;
+                   height: 475px;
+                h1 {
+                    font-size: 46px;
+                    width: 388px;
+                    line-height: 54px;
+                }
+                p {
+                    width: 90%;
+                }
+            }
+            &--imageBlock {
+              width: 96%;
+              height: 515px;
+              margin: 20px 0 0 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #hero {
+        .hero {
+            flex-direction: column;
+            &--block {
+                   width: 90%;
+                   height: 445px;
+                   padding: 34px 24px 0 24px;
+                h1 {
+                    font-size: 43px;
+                    width: 358px;
+                    line-height: 51px;
+                }
+                p {
+                    width: 90%;
+                }
+                &__group {
+                    &--btnOne {
+                        padding: 14px 22px;
+                        font-size: 15px;
+                    }
+                    &--btnTwo {
+                        padding: 14px 22px;
+                        font-size: 15px;
+                    }
+                }
+            }
+            &--imageBlock {
+              width: 100%;
+              height: 479px;
+              margin: 20px 0 0 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #hero {
+        .hero {
+            flex-direction: column;
+            &--block {
+                   width: 88%;
+                   height: 405px;
+                   padding: 25px 24px 25px 24px;
+                h1 {
+                    font-size: 39px;
+                    width: 288px;
+                    line-height: 49px;
+                }
+                p {
+                    width: 296px;
+                    padding: 34px 0 38px 0;
+                }
+                &__group {
+                    &--btnOne {
+                        padding: 13px 18px;
+                        font-size: 13px;
+                    }
+                    &--btnTwo {
+                        padding: 13px 18px;
+                        font-size: 13px;
+                        &__btnIcon {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            &--imageBlock {
+                width: 88%;
+                height: 405px;
+                padding: 25px 24px 25px 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    #hero {
+        .hero {
+            flex-direction: column;
+            &--block {
+                   width: 88%;
+                   height: 355px;
+                   padding: 25px 24px 25px 24px;
+                h1 {
+                    font-size: 33px;
+                    width: 268px;
+                    line-height: 44px;
+                }
+                p {
+                    width: 256px;
+                    font-size: 15px;
+                    padding: 24px 0 28px 0;
+                }
+                &__group {
+                    &--btnOne {
+                        padding: 12px 15px;
+                        font-size: 11px;
+                    }
+                    &--btnTwo {
+                        padding: 10px 15px;
+                        font-size: 11px;
+                        &__btnIcon {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            &--imageBlock {
+                 width: 88%;
+                 height: 315px;
+                 padding: 25px 24px 25px 24px;
+                img {
+                    width: 240px;
+                    height: 240px;
+                }
+            }
+        }
+    }
+}

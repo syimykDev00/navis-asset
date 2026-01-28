@@ -1,0 +1,657 @@
+#navisNews {
+    padding: 50px 0;
+    .navisNews {
+        &--general {
+            padding: 60px 0;
+            display: flex;
+            justify-content: center;
+            align-items: start;
+            &__groupOne {
+                padding: 0 40px 0 0;
+                &--cardLeft {
+                    &__cardLeftTextGroup {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: end;
+                        &--cardLeftText {
+                            h2 {
+                              font-weight: 500;
+                              font-size: 18px;
+                              line-height: 25px;
+                              color: #000000;
+                              width: 460px;
+                              padding: 10px 0 20px 0;
+                            }
+                            P {
+                             font-weight: 400;
+                             font-size: 16px;
+                             color: #6F6F6F;
+                            }
+                        }
+                        &--cardLeftIcon {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            background: linear-gradient(59.33deg, rgba(212, 21, 28, 0.15) 22.38%, rgba(211, 84, 0, 0.15) 87.43%);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 20px;
+                            color: #D4151C;
+                            transition: .4s;
+                            cursor: pointer;
+                            &:hover {
+                                background: black;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+                &--cardLeftMini {
+                    display: flex;
+                    align-items: center;
+                    padding: 20px 0 30px 0;
+                    &__cardLeftMiniTextGroup {
+                        padding: 0 0 0 20px;
+                        display: flex;
+                        align-items: end;
+                        justify-content: space-between;
+                        &--cardLeftMiniText {
+                        h3 {
+                          font-weight: 500;
+                          font-size: 18px;
+                          color: #000000;
+                          width: 400px;
+                          padding: 0 0 20px 0;
+                          line-height: 23px;
+                         }
+                         h6 {
+                           font-weight: 400;
+                           font-size: 16px;
+                           color: #6F6F6F;
+                         }
+                        }
+                        &--cardLeftMiniIcon {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            background: linear-gradient(59.33deg, rgba(212, 21, 28, 0.15) 22.38%, rgba(211, 84, 0, 0.15) 87.43%);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 20px;
+                            color: #D4151C;
+                            transition: .4s;
+                            cursor: pointer;
+                            &:hover {
+                                background: black;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            &__groupTwo {
+                &--cardRight {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 0 30px 0;
+                    &__cardRightTextGroup {
+                        padding: 0 0 0 20px;
+                        display: flex;
+                        align-items: end;
+                        justify-content: space-between;
+                        &--cardRightText {
+                        h3 {
+                          font-weight: 500;
+                          font-size: 18px;
+                          color: #000000;
+                          width: 335px;
+                          padding: 0 0 20px 0;
+                          line-height: 23px;
+                         }
+                         h6 {
+                           font-weight: 400;
+                           font-size: 16px;
+                           color: #6F6F6F;
+                         }
+                        }
+                        &--cardRightIcon {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            background: linear-gradient(59.33deg, rgba(212, 21, 28, 0.15) 22.38%, rgba(211, 84, 0, 0.15) 87.43%);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-size: 20px;
+                            color: #D4151C;
+                            transition: .4s;
+                            cursor: pointer;
+                            &:hover {
+                                background: black;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #navisNews {
+        .navisNews {
+            &--general {
+                padding: 40px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 750px;
+                        }
+                    }
+                    &--cardLeftMini {
+                    &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 580px;
+                            }
+                        }
+                    }
+                  }
+                }
+                &__groupTwo {
+                 &--cardRight {
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 580px;
+                            }
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    #navisNews {
+        .navisNews {
+            &--general {
+                padding: 40px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 700px;
+                        }
+                        
+                    }
+                    &--cardLeftMini {
+                    &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 530px;
+                            }
+                        }
+                    }
+                  }
+                }
+                &__groupTwo {
+                  &--cardRight {
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 530px;
+                            }
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #navisNews {
+        .navisNews {
+            &--general {
+                padding: 40px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 650px;
+                        }
+                        
+                    }
+                    &--cardLeftMini {
+                     &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 480px;
+                            }
+                        }
+                     }
+                  }
+                }
+                &__groupTwo {
+                  &--cardRight {
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 480px;
+                            }
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #navisNews {
+        .navisNews {
+            &--general {
+                padding: 40px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 550px;
+                        }
+                    }
+                    &--cardLeftMini {
+                     &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 380px;
+                            }
+                        }
+                     }
+                  }
+                }
+                &__groupTwo {
+                  &--cardRight {
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 380px;
+                            }
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #navisNews {
+        .navisNews {
+            &--general {
+                padding: 40px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 100%;
+                        }
+                        &__cardLeftTextGroup {
+                            &--cardLeft {
+                                h2 {
+                                    width: 420px;
+                                }
+                            }
+                        }
+                    }
+                    &--cardLeftMini {
+                     &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 345px;
+                            }
+                        }
+                     }
+                  }
+                }
+                &__groupTwo {
+                  &--cardRight {
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 345px;
+                            }
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #navisNews {
+        .navisNews {
+            &--general {
+                padding: 40px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 100%;
+                        }
+                        &__cardLeftTextGroup {
+                            &--cardLeftText {
+                                h2 {
+                                    width: 350px;
+                                    font-size: 17px;
+                                    line-height: 24px;
+                                }
+                            }
+                            &--cardLeftIcon {
+                                width: 45px;
+                                height: 45px;
+                                font-size: 19px;
+                            }
+                        }
+                    }
+                    &--cardLeftMini {
+                    align-items: start;
+                    &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 235px;
+                                font-size: 17px;
+                                line-height: 24px;
+                            }
+                        }
+                        &--cardLeftMiniIcon {
+                            width: 45px;
+                            height: 45px;
+                            font-size: 19px;
+                      }
+                    }
+                  }
+                }
+                &__groupTwo {
+                  &--cardRight {
+                    align-items: start;
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 235px;
+                                font-size: 17px;
+                                line-height: 24px;
+                            }
+                        }
+                        &--cardRightIcon {
+                            width: 45px;
+                            height: 45px;
+                            font-size: 19px;
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #navisNews {
+        .navisNews {
+            &--general {
+                padding: 30px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 99%;
+                        }
+                        &__cardLeftTextGroup {
+                            &--cardLeftText {
+                                h2 {
+                                    width: 270px;
+                                    font-size: 17px;
+                                    line-height: 24px;
+                                }
+                            }
+                            &--cardLeftIcon {
+                                width: 40px;
+                                height: 40px;
+                                font-size: 19px;
+                            }
+                        }
+                    }
+                    &--cardLeftMini {
+                     width: 100%;   
+                     align-items: start;
+                    &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 180px;
+                                font-size: 16px;
+                                line-height: 23px;
+                            }
+                        }
+                        &--cardLeftMiniIcon {
+                         width: 40px;
+                         height: 40px;
+                         font-size: 19px;
+                      }
+                    }
+                  }
+                }
+                &__groupTwo {
+                  &--cardRight {
+                    width: 100%;
+                    align-items: start;
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 180px;
+                                font-size: 16px;
+                                line-height: 23px;
+                            }
+                        }
+                        &--cardRightIcon {
+                            width: 40px;
+                            height: 40px;
+                            font-size: 19px;
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    #navisNews {
+        .navisNews {
+            h1 {
+                font-size: 37px;
+            }
+            &--general {
+                padding: 30px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 99%;
+                        }
+                        &__cardLeftTextGroup {
+                            &--cardLeftText {
+                                h2 {
+                                    width: 270px;
+                                    font-size: 17px;
+                                    line-height: 24px;
+                                }
+                            }
+                            &--cardLeftIcon {
+                                width: 40px;
+                                height: 40px;
+                                font-size: 19px;
+                            }
+                        }
+                    }
+                    &--cardLeftMini {
+                     width: 100%;   
+                     align-items: start;
+                    &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 180px;
+                                font-size: 16px;
+                                line-height: 23px;
+                            }
+                        }
+                        &--cardLeftMiniIcon {
+                         width: 40px;
+                         height: 40px;
+                         font-size: 19px;
+                      }
+                    }
+                  }
+                }
+                &__groupTwo {
+                  &--cardRight {
+                    width: 100%;
+                    align-items: start;
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 180px;
+                                font-size: 16px;
+                                line-height: 23px;
+                            }
+                        }
+                        &--cardRightIcon {
+                            width: 40px;
+                            height: 40px;
+                            font-size: 19px;
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    #navisNews {
+        .navisNews {
+            h1 {
+                font-size: 35px;
+            }
+            &--general {
+                padding: 30px 0;
+                flex-direction: column;
+                align-items: center;
+                &__groupOne {
+                    padding: 0 0 30px 0;
+                    &--cardLeft {
+                        img {
+                            width: 100%;
+                        }
+                        &__cardLeftTextGroup {
+                            &--cardLeftText {
+                                h2 {
+                                    width: 220px;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                }
+                            }
+                            &--cardLeftIcon {
+                                width: 35px;
+                                height: 35px;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    &--cardLeftMini {
+                     width: 100%;   
+                     align-items: start;
+                    &__cardLeftMiniTextGroup {
+                        &--cardLeftMiniText {
+                            h3 {
+                                width: 130px;
+                                font-size: 15px;
+                                line-height: 23px;
+                            }
+                            h6 {
+                                font-size: 14px;
+                            }
+                        }
+                        &--cardLeftMiniIcon {
+                         width: 35px;
+                         height: 35px;
+                         font-size: 18px;
+                      }
+                    }
+                  }
+                }
+                &__groupTwo {
+                  &--cardRight {
+                    width: 100%;
+                    align-items: start;
+                    &__cardRightTextGroup {
+                        &--cardRightText {
+                            h3 {
+                                width: 130px;
+                                font-size: 15px;
+                                line-height: 23px;
+                            }
+                            h6 {
+                                font-size: 14px;
+                            }
+                        }
+                        &--cardRightIcon {
+                            width: 35px;
+                            height: 35px;
+                            font-size: 18px;
+                        }
+                    }
+                  }
+                }
+            }
+        }
+    }
+}
+
+
+

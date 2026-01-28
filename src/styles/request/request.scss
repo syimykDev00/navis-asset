@@ -1,0 +1,617 @@
+#request {
+    padding: 40px 0 100px 0;
+    .request {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        &--blockOne {
+            &__requestIconsGroup {
+                display: flex;
+                align-items: start;
+                padding: 0 0 50px 0;
+                &--requestIcon {
+                    width: 60px;
+                    height: 60px;
+                    background: linear-gradient(59.33deg, rgba(212, 21, 28, 0.15) 22.38%, rgba(211, 84, 0, 0.15) 87.43%);
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #D4151C;
+                }
+                &--requestText {
+                    padding: 0 0 0 20px;
+                    h2 {
+                     font-weight: 500;
+                     font-size: 24px;
+                     line-height: 30px;
+                     color: #000000;
+                     padding: 0 0 20px 0;
+                     width: 341px;
+                    }
+                    p {
+                     font-weight: 400;
+                     font-size: 16px;
+                     line-height: 24px;
+                     color: #6F6F6F;
+                     width: 434px;
+                    }
+                }
+            }
+        }
+         &--blockTwo {
+            width: 534px;
+            height: 100%;
+            border-radius: 30px;
+            padding: 30px 0 30px 30px;
+            background: #F5F7FA;
+              input.error,
+              select.error {
+              border: 1px solid #D4151C !important;
+              background: #fff;
+              box-shadow: 0 0 0 1px rgba(212, 21, 28, 0.4);
+            }
+            span {
+            font-size: 12px;
+            color: #d4151c;
+            padding: 4px 0 0 0;
+            display: block;
+          }
+            &__group {
+                display: flex;
+                align-items: start;
+                padding: 0 0 24px 0;
+                &--groupInput {
+                    padding: 0 10px 0 0;
+                    h2 {
+                      font-weight: 500;
+                      font-size: 14px;
+                      color: #000000;
+                      padding: 0 0 10px 0;
+                    }
+                    input {
+                        width: 232px;
+                        height: 50px;
+                        background: white;
+                        padding: 0 0 0 16px;
+                        border: none;
+                        outline: none;
+                        font-family: Inter;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #6F6F6F;
+                        border-radius: 10px;
+                    }
+                }
+            }
+            &__selectGroup {
+                padding: 0 0 24px 0;
+                h3 {
+                font-weight: 500;
+                font-size: 14px;
+                color: #000000;
+                padding: 0 0 10px 0;
+             }
+             &--selectBlock {
+                font-weight: 400;
+                font-size: 16px;
+                color: #6F6F6F;
+                padding: 0 10px 0 16px;
+                width: 506px;
+                height: 50px;
+                border-radius: 10px;
+                background: white;
+                border: none;
+                outline: none;
+             }
+            }
+            &__group {
+                &--groupSelectInput {
+                    padding: 0 10px 0 0;
+                    h2 {
+                     font-weight: 500;
+                     font-size: 14px;
+                     color: #000000;
+                     padding: 0 0 10px 0;
+                    }
+                    &__selectType {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #6F6F6F;
+                    padding: 0 0 0 16px;
+                    width: 248px;
+                    height: 50px;
+                    background: white;
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    }
+                }
+            }
+            &__groupTwo {
+                display: flex;
+                align-items: start;
+                padding: 0 0 24px 0;
+                &--groupSelectInput {
+                    padding: 0 10px 0 0;
+                    h2 {
+                     font-weight: 500;
+                     font-size: 14px;
+                     color: #000000;
+                     padding: 0 0 10px 0;
+                    }
+                    &__selectType {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #6F6F6F;
+                    padding: 0 0 0 16px;
+                    width: 248px;
+                    height: 50px;
+                    background: white;
+                    border: none;
+                    outline: none;
+                    border-radius: 10px;
+                    }
+                }
+                &--groupTwoInput {
+                    h2 {
+                        color: black;
+                        font-weight: 500;
+                        font-size: 14px;
+                        padding: 0 0 10px 0;
+                    }
+                    input {
+                        width: 232px;
+                        height: 50px;
+                        background: white;
+                        padding: 0 0 0 16px;
+                        border: none;
+                        outline: none;
+                        font-family: Inter;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #6F6F6F;
+                        border-radius: 10px;
+                    }
+                }
+            }
+            &__checkGroup {
+                display: flex;
+                align-items: center;
+                padding: 0 0 24px 0;
+                input {
+                    width: 25px;
+                    height: 25px;
+                    border: 1px solid #6F6F6F;
+                    border-radius: 5px;
+                }
+                p {
+                 font-weight: 400;
+                 font-size: 12px;
+                 line-height: 14px;
+                 color: #6F6F6F;
+                 width: 450px;
+                 padding: 0 0 0 8px;
+                 span {
+                    color: #D4151C;
+                 }
+                }
+            }
+            button {
+                font-weight: 600;
+                font-size: 16px;
+                color: white;
+                background: linear-gradient(59.33deg, #D4151C 22.38%, #D35400 87.43%);
+                padding: 15px 180px;
+                border-radius: 8px;
+                &:hover {
+                    background: black;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #request {
+        .request {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    #request {
+        .request {
+            flex-direction: column;
+            align-items: center;
+            &--blockOne {
+                &__requestIconsGroup {
+                    padding: 0 0 40px 0;
+                    &--requestIcon {
+                    width: 53px;
+                    height: 53px;
+                    }
+                    &--requestText {
+                        h2 {
+                            width: 300px;
+                            font-size: 23px;
+                            line-height: 29px;
+                            padding: 0 0 15px 0;
+                        }
+                        p {
+                            width: 400px;
+                        }
+                    }
+                }
+            }
+            &--blockTwo {
+                width: 90%;
+                &__group {
+                    &--groupInput {
+                        input {
+                            width: 200px;
+                        }
+                    }
+                }
+                &__selectGroup {
+                    &--selectBlock {
+                       width: 440px;
+                    }
+                }
+                &__groupTwo {
+                    padding: 0 0 24px 0;
+                    &--groupSelectInput {
+                        &__selectType {
+                            width: 206px;
+                        }
+                    }
+                    &--groupTwoInput {
+                        input {
+                            width: 206px;
+                        }
+                    }
+                }
+                &__checkGroup {
+                    p {
+                        width: 85%;
+                    }
+                }
+                button {
+                    padding: 15px 147px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #request {
+        .request {
+            flex-direction: column;
+            align-items: center;
+            &--blockOne {
+                &__requestIconsGroup {
+                    padding: 0 0 40px 0;
+                    &--requestIcon {
+                    width: 55px;
+                    height: 55px;
+                    }
+                    &--requestText {
+                        h2 {
+                            width: 250px;
+                            font-size: 21px;
+                            line-height: 29px;
+                            padding: 0 0 15px 0;
+                        }
+                        p {
+                            width: 280px;
+                        }
+                    }
+                }
+            }
+            &--blockTwo {
+                width: 90%;
+                &__group {
+                    &--groupInput {
+                        input {
+                            width: 150px;
+                            font-size: 14px;
+                            height: 40px;
+                        }
+                    }
+                }
+                &__selectGroup {
+                    &--selectBlock {
+                       width: 340px;
+                       font-size: 14px;
+                       height: 40px;
+                    }
+                }
+                &__groupTwo {
+                    padding: 0 0 24px 0;
+                    &--groupSelectInput {
+                        &__selectType {
+                            width: 156px;
+                            font-size: 14px;
+                            height: 40px;
+                        }
+                    }
+                    &--groupTwoInput {
+                        input {
+                            width: 156px;
+                            font-size: 14px;
+                            height: 40px;
+                        }
+                    }
+                }
+                &__checkGroup {
+                    align-items: start;
+                    input {
+                        width: 22px;
+                        height: 22px;
+                    }
+                }
+                button {
+                    padding: 15px 102px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #request {
+        .request {
+            flex-direction: column;
+            align-items: center;
+            &--blockOne {
+                &__requestIconsGroup {
+                    padding: 0 0 40px 0;
+                    &--requestIcon {
+                    width: 55px;
+                    height: 55px;
+                    }
+                    &--requestText {
+                        h2 {
+                            width: 230px;
+                            font-size: 21px;
+                            line-height: 29px;
+                            padding: 0 0 15px 0;
+                        }
+                        p {
+                            width: 250px;
+                        }
+                    }
+                }
+            }
+            &--blockTwo {
+                width: 90%;
+                &__group {
+                    flex-direction: column;
+                    padding: 0;
+                    &--groupInput {
+                        padding: 0 0 24px 0;
+                        input {
+                            width: 278px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                }
+                &__selectGroup {
+                    &--selectBlock {
+                       width: 294px;
+                       font-size: 14px;
+                       height: 35px;
+                    }
+                }
+                &__groupTwo {
+                    padding: 0 0 24px 0;
+                    flex-direction: column;
+                    &--groupSelectInput {
+                        padding: 0 0 24px 0;
+                        &__selectType {
+                            width: 294px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                    &--groupTwoInput {
+                        input {
+                            width: 280px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                }
+                &__checkGroup {
+                    align-items: start;
+                    input {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                button {
+                    padding: 15px 80px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    #request {
+        .request {
+            flex-direction: column;
+            align-items: center;
+              &--blockOne {
+                &__requestIconsGroup {
+                    padding: 0 0 40px 0;
+                    &--requestIcon {
+                    width: 55px;
+                    height: 55px;
+                    }
+                    &--requestText {
+                        h2 {
+                            width: 210px;
+                            font-size: 22px;
+                            line-height: 29px;
+                            padding: 0 0 15px 0;
+                        }
+                        p {
+                            width: 230px;
+                        }
+                    }
+                }
+            }
+            &--blockTwo {
+                width: 90%;
+                &__group {
+                    flex-direction: column;
+                    padding: 0;
+                    &--groupInput {
+                        padding: 0 0 24px 0;
+                        input {
+                            width: 264px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                }
+                &__selectGroup {
+                    &--selectBlock {
+                       width: 278px;
+                       font-size: 14px;
+                       height: 35px;
+                    }
+                }
+                &__groupTwo {
+                    padding: 0 0 24px 0;
+                    flex-direction: column;
+                    &--groupSelectInput {
+                        padding: 0 0 24px 0;
+                        &__selectType {
+                            width: 278px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                    &--groupTwoInput {
+                        input {
+                            width: 262px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                }
+                &__checkGroup {
+                    align-items: start;
+                    input {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                button {
+                    padding: 14px 73px;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    #request {
+        .request {
+            flex-direction: column;
+            align-items: center;
+             &--blockOne {
+                &__requestIconsGroup {
+                    padding: 0 0 40px 0;
+                    &--requestIcon {
+                    width: 55px;
+                    height: 55px;
+                    }
+                    &--requestText {
+                        h2 {
+                            width: 180px;
+                            font-size: 21px;
+                            line-height: 27px;
+                            padding: 0 0 15px 0;
+                        }
+                        p {
+                            width: 180px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            &--blockTwo {
+                width: 90%;
+                &__group {
+                    flex-direction: column;
+                    padding: 0;
+                    &--groupInput {
+                        padding: 0 0 24px 0;
+                        input {
+                            width: 220px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                }
+                &__selectGroup {
+                    &--selectBlock {
+                       width: 235px;
+                       font-size: 13px;
+                       height: 35px;
+                    }
+                }
+                &__groupTwo {
+                    padding: 0 0 24px 0;
+                    flex-direction: column;
+                    &--groupSelectInput {
+                        padding: 0 0 24px 0;
+                        &__selectType {
+                            width: 235px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                    &--groupTwoInput {
+                        input {
+                            width: 220px;
+                            font-size: 14px;
+                            height: 35px;
+                        }
+                    }
+                }
+                &__checkGroup {
+                    align-items: start;
+                    input {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                button {
+                    padding: 13px 55px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+

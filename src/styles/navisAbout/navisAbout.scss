@@ -1,0 +1,640 @@
+#navisAbout {
+    padding: 40px 0;
+    .navisAbout {
+        h1 {
+            font-weight: 600;
+            font-size: 50px;
+            color: #000000;
+            padding: 0 0 40px 0;
+            text-align: center;
+        }
+        &--generalOne {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 0 15px 0;
+            &__group {
+                padding: 0 15px 0 0;
+                &--groupGeneral {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 0 10px 0;
+                    &__blockOne {
+                        width: 258px;
+                        height: 145px;
+                        margin: 0 10px 0 0;
+                        border-radius: 12px;
+                        background: #F5F7FA;
+                        padding: 0 0 0 20px;
+                        display: flex;
+                        align-items: center;
+                        transition: .4s;
+                        &:hover {
+                            background: linear-gradient(59.33deg, #D4151C 22.38%, #D35400 87.43%);
+                            h3 {
+                                color: white;
+                            }
+                            h2 {
+                                color: white;
+                            }
+                        }
+                        &--blockOneText {
+                            padding: 0 0 0 14px;
+                            h3 {
+                             font-weight: 400;
+                             font-size: 16px;
+                             color: #6F6F6F;
+                             padding: 0 0 10px 0;
+                            }
+                            h2 {
+                             font-weight: 500;
+                             font-size: 22px;
+                             color: #000000;
+                             line-height: 23px;
+                            }
+                        }
+                    }
+                    &__blockTwo {
+                        width: 258px;
+                        height: 145px;
+                        border-radius: 12px;
+                        background: #F5F7FA;
+                        padding: 0 0 0 20px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        justify-content: center;
+                        transition: .4s;
+                        &:hover {
+                            background: linear-gradient(59.33deg, #D4151C 22.38%, #D35400 87.43%);
+                            color: white;
+                            h3 {
+                                color: white;
+                            }
+                            h4 {
+                                color: white;
+                            }
+                        }
+                        h3 {
+                         font-weight: 600;
+                         font-size: 50px;
+                         color: #000000;
+                         padding: 0 0 10px 0;
+                        }
+                        h4 {
+                         font-weight: 400;
+                         font-size: 16px;
+                         color: #6F6F6F;
+                        }
+                    }
+                }
+                &--blockThree {
+                    width: 546px;
+                    height: 145px;
+                    border-radius: 12px;
+                    background: #F5F7FA;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: center;
+                    padding: 0 0 0 20px;
+                    transition: .4s;
+                    &:hover {
+                        background: linear-gradient(59.33deg, #D4151C 22.38%, #D35400 87.43%);
+                        h2 {
+                            color: white;
+                        }
+                        h3 {
+                            color: white;
+                        }
+                    }
+                    h2 {
+                     font-weight: 600;
+                     font-size: 50px;
+                     color: #000000;
+                     padding: 0 0 10px 0;
+                    }
+                    h3 {
+                     font-weight: 400;
+                     font-size: 16px;
+                     color: #6F6F6F;
+                    }
+                }
+            }
+        }
+        &--generalTwo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &__group {
+                display: flex;
+                align-items: center;
+                &--block {
+                    width: 258px;
+                    height: 300px;
+                    border-radius: 12px;
+                    background: #F5F7FA;
+                    padding: 0 0 0 20px;
+                    margin: 0 0 0 15px;
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    justify-content: center;
+                    transition: .4s;
+                    &:hover {
+                        background: #000000;
+                        h3 {
+                            color: white;
+                        }
+                        h4 {
+                            color: white;
+                        }
+                    }
+                    h3 {
+                     font-weight: 600;
+                     font-size: 50px;
+                     color: #000000;
+                     padding: 0 0 160px 0;
+                    }
+                    h4 {
+                     font-weight: 400;
+                     font-size: 16px;
+                     color: #6F6F6F;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 48px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    &--blockThree {
+                        margin: 0 0 15px 0;
+                    }
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 45px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    &--blockThree {
+                        margin: 0 0 15px 0;
+                    }
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 44px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    &--blockThree {
+                        margin: 0 0 15px 0;
+                    }
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 42px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    &--blockThree {
+                        margin: 0 0 15px 0;
+                    }
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 38px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    padding: 0;
+                    &--groupGeneral {
+                        &__blockOne {
+                          width: 234px;
+                        }
+                        &__blockTwo {
+                          width: 234px;
+                          h3 {
+                            font-size: 42px;
+                          }
+                        }
+                    }
+                    &--blockThree {
+                        width: 498px;
+                        margin: 0 0 15px 0;
+                        h2 {
+                            font-size: 42px;
+                        }
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                    &--block {
+                        width: 224px;
+                        h3 {
+                         font-size: 42px;
+                        }
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 36px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    padding: 0;
+                    &--groupGeneral {
+                        &__blockOne {
+                          width: 182px;
+                          padding: 0 0 0 15px;
+                          img {
+                            width: 50px;
+                            height: 50px;
+                          }
+                          &--blockOneText {
+                            padding: 0 0 0 8px;
+                            h3 {
+                                font-size: 15px;
+                              }
+                              h4 {
+                                font-size: 18px;
+                              }
+                          }
+                        }
+                        &__blockTwo {
+                          width: 182px;
+                          padding: 0 0 0 15px;
+                          h3 {
+                            font-size: 30px;
+                          }
+                          h4 {
+                            font-size: 15px;
+                            width: 90%;
+                          }
+                        }
+                    }
+                    &--blockThree {
+                        width: 384px;
+                        margin: 0 0 15px 0;
+                        h2 {
+                            font-size: 30px;
+                        }
+                        h3 {
+                            font-size: 15px;
+                        }
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                    &--block {
+                        width: 167px;
+                        height: 250px;
+                        h3 {
+                         font-size: 30px;
+                         padding: 0 0 130px 0;
+                        }
+                        h4 {
+                            width: 85%;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 33px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    padding: 0;
+                    &--groupGeneral {
+                        &__blockOne {
+                          flex-direction: column;
+                          align-items: start;
+                          justify-content: center;
+                          width: 162px;
+                          padding: 0 0 0 12px;
+                          img {
+                            width: 45px;
+                            height: 45px;
+                          }
+                          &--blockOneText {
+                            padding: 6px 0 0 0;
+                            h3 {
+                                font-size: 13px;
+                              }
+                            h2 {
+                                font-size: 21px;
+                            }
+                          }
+                        }
+                        &__blockTwo {
+                          width: 162px;
+                          padding: 0 0 0 12px;
+                          h3 {
+                            font-size: 30px;
+                          }
+                          h4 {
+                            font-size: 15px;
+                            width: 80%;
+                          }
+                        }
+                    }
+                    &--blockThree {
+                        width: 340px;
+                        margin: 0 0 15px 0;
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                    &--block {
+                        width: 145px;
+                        height: 220px;
+                        h3 {
+                         font-size: 26px;
+                         padding: 0 0 100px 0;
+                        }
+                        h4 {
+                            width: 80%;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 32px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    padding: 0;
+                    &--groupGeneral {
+                        &__blockOne {
+                          flex-direction: column;
+                          align-items: start;
+                          justify-content: center;
+                          width: 151px;
+                          padding: 0 0 0 12px;
+                          img {
+                            width: 40px;
+                            height: 40px;
+                          }
+                          &--blockOneText {
+                            padding: 6px 0 0 0;
+                            h3 {
+                                font-size: 13px;
+                              }
+                            h2 {
+                                font-size: 21px;
+                            }
+                          }
+                        }
+                        &__blockTwo {
+                          width: 151px;
+                          padding: 0 0 0 12px;
+                          h3 {
+                            font-size: 30px;
+                          }
+                          h4 {
+                            font-size: 15px;
+                            width: 80%;
+                          }
+                        }
+                    }
+                    &--blockThree {
+                        width: 316px;
+                        margin: 0 0 15px 0;
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                    &--block {
+                        width: 133px;
+                        height: 190px;
+                        h3 {
+                         font-size: 24px;
+                         padding: 0 0 80px 0;
+                        }
+                        h4 {
+                            width: 80%;
+                            font-size: 12px;
+                        }
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    #navisAbout {
+        .navisAbout {
+            h1 {
+                font-size: 29px;
+            }
+            &--generalOne {
+                flex-direction: column;
+                &__group {
+                    padding: 0;
+                    &--groupGeneral {
+                        &__blockOne {
+                          flex-direction: column;
+                          align-items: start;
+                          justify-content: center;
+                          width: 126px;
+                          padding: 0 0 0 12px;
+                          img {
+                            width: 40px;
+                            height: 40px;
+                          }
+                          &--blockOneText {
+                            padding: 6px 0 0 0;
+                            h3 {
+                                font-size: 13px;
+                              }
+                            h2 {
+                                font-size: 20px;
+                            }
+                          }
+                        }
+                        &__blockTwo {
+                          width: 126px;
+                          padding: 0 0 0 12px;
+                          h3 {
+                            font-size: 26px;
+                          }
+                          h4 {
+                            font-size: 14px;
+                            width: 80%;
+                          }
+                        }
+                    }
+                    &--blockThree {
+                        width: 268px;
+                        margin: 0 0 15px 0;
+                        h2 {
+                          font-size: 26px;
+                        }
+                        h3 {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+            &--generalTwo {
+                flex-direction: column-reverse;
+                &__group {
+                    padding: 0 0 15px 0;
+                    &--block {
+                        width: 109px;
+                        height: 150px;
+                        h3 {
+                         font-size: 19px;
+                         padding: 0 0 60px 0;
+                        }
+                        h4 {
+                            width: 80%;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                &__image {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+

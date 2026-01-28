@@ -1,0 +1,483 @@
+#navisPrice {
+    padding: 40px 0 100px 0;
+    .navisPrice {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        &--blockOne {
+            width: 540px;
+            height: 553px;
+            background: #F5F7FA;
+            border-radius: 30px;
+            padding: 30px 0 30px 25px;
+            h2 {
+              font-weight: 600;
+              font-size: 50px;
+              color: #000000;
+              text-align: center;
+              padding: 0 0 24px 0;
+            }
+            p {
+             font-weight: 400;
+             font-size: 16px;
+             line-height: 25px;
+             color: #6F6F6F;
+             width: 512px;
+            }
+        }
+        &--blockTwo {
+            width: 530px;
+            height: 553px;
+            background: linear-gradient(51.24deg, #D4151C 22.63%, #D35400 82.84%);
+            border-radius: 30px;
+            padding: 30px 0 30px 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+            h2 {
+             font-weight: 500;
+             font-size: 30px;
+             color: white;
+            }
+            h3 {
+               font-weight: 600;
+               font-size: 50px;
+               color: white;
+               padding: 42px 0;
+               span {
+                color: #F5F7FA;
+                font-size: 14px;
+                font-weight: 400;
+               }
+            }
+            &__navisIconGroup {
+                display: flex;
+                align-items: center;
+                padding: 0 0 25px 0;
+                &--icon {
+                    color: white;
+                    font-size: 36px;
+                }
+                h4 {
+                 font-weight: 400;
+                 font-size: 16px;
+                 color: white;
+                 padding: 0 0 0 14px;
+                }
+            }
+            button {
+              font-weight: 600;
+              font-size: 16px;
+              color: #000000;
+              padding: 15px 156px;
+              background: white;
+              margin: 15px 0 0 0;
+              border-radius: 8px;
+              &:hover {
+                background: black;
+                color: white;
+              }
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #navisPrice {
+        .navisPrice {
+            &--blockOne {
+                width: 45%;
+                height: 603px;
+                padding: 25px 0 25px 25px;
+                h2 {
+                    font-size: 48px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                }
+            }
+            &--blockTwo {
+               width: 45%;
+               height: 580px;
+               button {
+                 padding: 15px 136px;
+                 margin: 45px 0 0 0;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    #navisPrice {
+        .navisPrice {
+            &--blockOne {
+                width: 45%;
+                height: 600px;
+                padding: 20px 0 20px 25px;
+                h2 {
+                    font-size: 45px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+            }
+            &--blockTwo {
+               width: 45%;
+               height: 580px;
+               h2 {
+                font-size: 28px;
+               }
+               h3 {
+                font-size: 40px;
+               }
+               button {
+                 padding: 14px 106px;
+                 margin: 45px 0 0 0;
+                 font-size: 15px;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #navisPrice {
+        .navisPrice {
+            &--blockOne {
+                width: 45%;
+                height: 620px;
+                padding: 20px 0 20px 25px;
+                h2 {
+                    font-size: 42px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+            }
+            &--blockTwo {
+               width: 45%;
+               height: 615px;
+               padding: 25px 0 20px 25px;
+               h2 {
+                font-size: 28px;
+               }
+               h3 {
+                font-size: 40px;
+                padding: 50px 0;
+               }
+               button {
+                 padding: 14px 100px;
+                 margin: 55px 0 0 0;
+                 font-size: 15px;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #navisPrice {
+        .navisPrice {
+            flex-direction: column;
+            &--blockOne {
+                width: 85%;
+                height: 440px;
+                padding: 20px 0 20px 25px;
+                margin: 0 0 20px 0;
+                h2 {
+                    font-size: 40px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+            }
+            &--blockTwo {
+               width: 85%;
+               height: 525px;
+               padding: 25px 0 20px 25px;
+               &__navisIconGroup {
+                padding: 0 0 20px 0;
+               }
+               h2 {
+                font-size: 28px;
+               }
+               h3 {
+                font-size: 40px;
+                padding: 32px 0;
+               }
+               button {
+                 padding: 14px 193px;
+                 margin: 25px 0 0 0;
+                 font-size: 15px;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    #navisPrice {
+        .navisPrice {
+            flex-direction: column;
+            &--blockOne {
+                width: 90%;
+                height: 100%;
+                padding: 20px 0 25px 25px;
+                margin: 0 0 20px 0;
+                h2 {
+                    font-size: 38px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+            }
+            &--blockTwo {
+               width: 90%;
+               height: 100%;
+               padding: 25px 0 30px 25px;
+               &__navisIconGroup {
+                padding: 0 0 20px 0;
+               }
+               h2 {
+                font-size: 28px;
+               }
+               h3 {
+                font-size: 40px;
+                padding: 32px 0;
+               }
+               button {
+                 padding: 14px 133px;
+                 margin: 25px 0 0 0;
+                 font-size: 15px;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    #navisPrice {
+        .navisPrice {
+            flex-direction: column;
+            &--blockOne {
+                width: 90%;
+                height: 100%;
+                padding: 20px 0 25px 25px;
+                margin: 0 0 20px 0;
+                h2 {
+                    font-size: 36px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                    font-size: 15px;
+                    line-height: 23px;
+                }
+            }
+            &--blockTwo {
+               width: 90%;
+               height: 100%;
+               padding: 25px 0 30px 25px;
+               &__navisIconGroup {
+                padding: 0 0 20px 0;
+               }
+               h2 {
+                font-size: 26px;
+               }
+               h3 {
+                font-size: 39px;
+                padding: 32px 0;
+               }
+               button {
+                 padding: 14px 82px;
+                 margin: 25px 0 0 0;
+                 font-size: 15px;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    #navisPrice {
+        .navisPrice {
+            flex-direction: column;
+            &--blockOne {
+                width: 90%;
+                height: 100%;
+                padding: 20px 0 25px 25px;
+                margin: 0 0 20px 0;
+                h2 {
+                    font-size: 34px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                    font-size: 14px;
+                    line-height: 23px;
+                }
+            }
+            &--blockTwo {
+               width: 90%;
+               height: 100%;
+               padding: 25px 0 30px 25px;
+               &__navisIconGroup {
+                padding: 0 0 15px 0;
+                &--icon {
+                    font-size: 30px;
+                }
+                h4 {
+                    width: 85%;
+                    font-size: 15px;
+                    padding: 0 0 0 10px;
+                }
+               }
+               h2 {
+                font-size: 25px;
+                width: 90%;
+               }
+               h3 {
+                font-size: 39px;
+                padding: 25px 0;
+               }
+               button {
+                 padding: 14px 68px;
+                 margin: 25px 0 0 0;
+                 font-size: 14px;
+                 display: flex;
+                 justify-content: center;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    #navisPrice {
+        .navisPrice {
+            flex-direction: column;
+            &--blockOne {
+                width: 90%;
+                height: 100%;
+                padding: 20px 0 25px 25px;
+                margin: 0 0 20px 0;
+                h2 {
+                    font-size: 34px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                    font-size: 14px;
+                    line-height: 23px;
+                }
+            }
+            &--blockTwo {
+               width: 90%;
+               height: 100%;
+               padding: 25px 0 30px 25px;
+               &__navisIconGroup {
+                padding: 0 0 15px 0;
+                &--icon {
+                    font-size: 30px;
+                }
+                h4 {
+                    width: 85%;
+                    font-size: 15px;
+                    padding: 0 0 0 10px;
+                }
+               }
+               h2 {
+                font-size: 25px;
+                width: 90%;
+               }
+               h3 {
+                font-size: 39px;
+                padding: 25px 0;
+               }
+               button {
+                 padding: 14px 58px;
+                 margin: 25px 0 0 0;
+                 font-size: 14px;
+                 display: flex;
+                 justify-content: center;
+               }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    #navisPrice {
+        .navisPrice {
+            flex-direction: column;
+            &--blockOne {
+                width: 90%;
+                height: 100%;
+                padding: 20px 0 25px 25px;
+                margin: 0 0 20px 0;
+                h2 {
+                    font-size: 32px;
+                    padding: 0 0 15px 0;
+                }
+                p {
+                    width: 95%;
+                    font-size: 13px;
+                    line-height: 23px;
+                }
+            }
+            &--blockTwo {
+               width: 90%;
+               height: 100%;
+               padding: 25px 0 30px 20px;
+               &__navisIconGroup {
+                padding: 0 0 15px 0;
+                &--icon {
+                    font-size: 25px;
+                }
+                h4 {
+                    width: 80%;
+                    font-size: 13px;
+                    padding: 0 0 0 10px;
+                }
+               }
+               h2 {
+                font-size: 23px;
+                width: 90%;
+               }
+               h3 {
+                font-size: 35px;
+                padding: 25px 0;
+               }
+               button {
+                 padding: 14px 42px;
+                 margin: 25px 0 0 0;
+                 font-size: 13px;
+                 display: flex;
+                 justify-content: center;
+               }
+            }
+        }
+    }
+}
+

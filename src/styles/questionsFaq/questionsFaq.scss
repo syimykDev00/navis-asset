@@ -1,0 +1,221 @@
+#questionsFaq {
+    padding: 40px 0 100px 0;
+    .questionsFaq__title {
+      font-weight: 600;
+      font-size: 50px;
+      line-height: 100%;
+      text-align: center;
+      color: #000000;
+      padding: 0 0 60px 0;
+    }
+    .questionsFaq {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .questionsFaq__item {
+        border-bottom: 1px solid #D8D8D8;
+        padding: 20px 0;
+    }
+    .questionsFaq__questions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+         font-size: 20px;
+         font-weight: 500;
+    }
+    .questionsFaq__icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: linear-gradient(
+      59.33deg,
+      rgba(212, 21, 28, 0.15) 22.38%,
+      rgba(211, 84, 0, 0.15) 87.43%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #D35400;
+    font-size: 26px;
+    transition: 0.3s;
+    flex-shrink: 0;
+    }
+    .questionsFaq__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    }
+    .questionsFaq__answer p {
+         font-weight: 400;
+         font-size: 20px;
+         line-height: 26px;
+         color: #6f6f6f;
+         width: 95%;
+         padding-top: 15px;
+    }
+    .questionsFaq__item.active {
+        .questionsFaq__answer {
+            max-height: 300px;
+        }
+        .questionsFaq__icon {
+        background: linear-gradient(
+        59.33deg,
+        #D4151C 22.38%,
+        #D35400 87.43%
+       );
+       color: white;
+      }
+    }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #questionsFaq {
+    .questionsFaq__title {
+      font-size: 45px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+   #questionsFaq {
+    .questionsFaq__title {
+      font-size: 43px;
+      width: 90%;
+      margin: 0 auto;
+      line-height: 51px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+   #questionsFaq {
+    .questionsFaq__title {
+      font-size: 42px;
+      width: 90%;
+      margin: 0 auto;
+      line-height: 49px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #questionsFaq {
+    .questionsFaq__title {
+      font-size: 38px;
+      width: 90%;
+      margin: 0 auto;
+      line-height: 45px;
+    }
+    .questionsFaq__question {
+      font-size: 18px;
+    }
+    .questionsFaq__icon {
+      width: 34px;
+      height: 34px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #questionsFaq {
+    .questionsFaq__title {
+      font-size: 36px;
+      width: 90%;
+      margin: 0 auto;
+      line-height: 40px;
+    }
+    .questionsFaq__question {
+      font-size: 18px;
+    }
+    .questionsFaq__icon {
+      width: 34px;
+      height: 34px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #questionsFaq {
+    .questionsFaq__title {
+      font-size: 31px;
+      width: 90%;
+      margin: 0 auto;
+      line-height: 37px;
+    }
+    .questionsFaq__question {
+      font-size: 18px;
+    }
+    .questionsFaq__icon {
+      width: 34px;
+      height: 34px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #questionsFaq {
+    .questionsFaq__title {
+      font-size: 28px;
+      width: 100%;
+      margin: 0 auto;
+      line-height: 36px;
+      padding: 0 0 40px 0;
+    }
+    .questionsFaq__question {
+      font-size: 18px;
+    }
+    .questionsFaq__icon {
+      width: 34px;
+      height: 34px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #questionsFaq {
+    .questionsFaq__title {
+      font-size: 28px;
+      width: 100%;
+      margin: 0 auto;
+      line-height: 36px;
+    }
+    .questionsFaq__question {
+      font-size: 18px;
+    }
+    .questionsFaq__icon {
+      width: 34px;
+      height: 34px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #questionsFaq {
+    .questionsFaq__title {
+      font-size: 24px;
+      width: 100%;
+      margin: 0 auto;
+      line-height: 31px;
+    }
+    .questionsFaq__question {
+      font-size: 18px;
+    }
+    .questionsFaq__icon {
+      width: 34px;
+      height: 34px;
+      font-size: 22px;
+    }
+  }
+}

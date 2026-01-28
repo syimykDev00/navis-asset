@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+    transition: .4s;
+    border: none;
+    outline: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import './header/header.scss';
+@import './hero/hero.scss';
+@import './company/company.scss';
+@import './choice/choice.scss';
+@import './help/help.scss';
+@import './questionsFaq/questionsFaq.scss';
+@import './news/news.scss';
+@import './pocket/pocket.scss';
+@import './footer/footer.scss';
+
+
+@import './navisAbout/navisAbout.scss';
+@import './guarantee/guarantee.scss';
+
+@import './navisPrice/navisPrice.scss';
+
+@import './reviews/reviews.scss';
+
+@import './contact/contact.scss';
+
+@import './request/request.scss';
+
+@import './navisNews/navisNews.scss';
+
+@import './navisNewsDetailPage/navisNewsDetailPage.scss';
+
+
+// Header.jsx
+// import React from 'react';
+// import logo from '../../assets/img/logo.svg';
+// import {Link} from 'react-router-dom';
+// import headerFlag from '../../assets/img/headerFlag.svg';
+
+// const Header = () => {
+//     return (
+//         <header id='header'>
+//             <div className='container'>
+//                 <div className='header'>
+//                     <img src={logo} alt="img"/>
+//                     <nav className='header--navbar'>
+//                         <Link to={'/'} className='header--navbar__link'>Услуги</Link>
+//                         <Link to={'/price'} className='header--navbar__link'>Прайс</Link>
+//                         <Link to={'/reviews'} className='header--navbar__link'>Отзывы</Link>
+//                         <Link to={'/about'} className='header--navbar__link'>О нас</Link>
+//                         <Link to={'/contact'} className='header--navbar__link'>Контакты</Link>
+//                     </nav>
+//                     <div className='header--group'>
+//                         <div className='header--group__block'>
+//                             <img src={headerFlag} alt="img"/>
+//                             <select>
+//                                 <option>Рус</option>
+//                             </select>
+//                         </div>
+//                         <button>Начать</button>
+//                     </div>
+//                 </div>
+//             </div>
+//         </header>
+//     )
+// }
+
+// export default Header;
+
+// Scss
+// #header {
+//     padding: 20px 0;
+//     border-bottom: 1px solid #D8D8D8;
+//     position: sticky;
+//     background: white;
+//     top: 0;
+//     z-index: 100;
+//     .header {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         &--navbar {
+//             &__link {
+//                 position: relative;
+//                 font-weight: 400;
+//                 font-size: 16px;
+//                 color:  #000000;
+//                 padding: 0 20px 10px;
+//                 &::after {
+//                     content: '';
+//                     position: absolute;
+//                     left: 50%;
+//                     bottom: 0;
+//                     width: 46px;
+//                     height: 6px;
+//                     background: linear-gradient(
+//                     59.33deg,
+//                     #D4151C 22.38%,
+//                     #D35400 87.43%
+//                   );
+//                      border-radius: 50px;
+//                      transform: translateX(-50%) scaleX(0);
+//                      transition: transform 0.3s ease;
+//                 }
+//                 &:focus::after {
+//                     transform: translate(-50%) scale(1);
+//                 }
+//             }
+//         }
+//         &--group {
+//             display: flex;
+//             align-items: center;
+//             &__block {
+//                 display: flex;
+//                 align-items: center;
+//                 width: 105px;
+//                 height: 50px;
+//                 background: #F5F7FA;
+//                 border-radius: 8px;
+//                 padding: 0 0 0 10px;
+//                 select {
+//                     border: none;
+//                     outline: none;
+//                     background: transparent;
+//                     margin: 0 0 0 10px;
+//                     font-family: Inter;
+//                     font-weight: 500;
+//                     font-size: 16px;
+//                     text-transform: uppercase;
+//                 }
+//             }
+//             button {
+//                font-weight: 600;
+//                font-size: 16px;
+//                color: white;
+//                background: #000000;
+//                padding: 14px 30px;
+//                border-radius: 8px;
+//                margin: 0 0 0 10px;
+//                &:hover {
+//                 background: linear-gradient(59.33deg, #D4151C 22.38%, #D35400 87.43%);
+//                }
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width: 1440px) {
+//     .container {
+//         width: 90%;
+//     }
+// }
+
+// @media (max-width: 1200px) {
+
+// }
+
+// @media (max-width: 1024px) {
+//     #header {
+//         .header {
+//             &--navbar {
+//                 &__link {
+//                     padding: 0 17px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width: 992px) {
+//     #header {
+//         .header {
+//             &--navbar {
+//                 &__link {
+//                     display: none;
+//                 }
+//             }
+//             &--group {
+//                 &__block {
+//                     display: none;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width: 400px) {
+//     #header {
+//         .header {
+//             &--navbar {
+//                 &__link {
+//                     display: none;
+//                 }
+//             }
+//             &--group {
+//                 &__block {
+//                     display: none;
+//                 }
+//                 button {
+//                     padding: 14px 26px;
+//                     font-size: 15px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (max-width: 320px) {
+//     #header {
+//         .header {
+//             &--navbar {
+//                 &__link {
+//                     display: none;
+//                 }
+//             }
+//             &--group {
+//                 &__block {
+//                     display: none;
+//                 }
+//                 button {
+//                     padding: 14px 24px;
+//                     font-size: 14px;
+//                 }
+//             }
+//         }
+//     }
+// }
